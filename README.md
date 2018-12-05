@@ -10,6 +10,12 @@ I created four macros to plot the track quantities. Each macro plot three variab
 
 In your `$CMSSW_BASE/src`, run it using:
 
-`python run.py`
+`root -l -b -q plot_tree1.C &>1.txt &`
+
+`root -l -b -q plot_tree2.C &>2.txt &`
+
+`root -l -b -q plot_tree3.C &>3.txt &`
+
+`root -l -b -q plot_tree4.C &>4.txt &`
 
 I include some test with run 326722.
