@@ -8,7 +8,7 @@ I created four macros to plot the track quantities. Each macro plot three variab
 
 ## How to use
 
-In your `$CMSSW_BASE/src`, run it using:
+In your `$CMSSW_BASE/src` (i've used CMSSW_10_3_1), run it using:
 
 `root -l -b -q plot_tree1.C &>1.txt &`
 
